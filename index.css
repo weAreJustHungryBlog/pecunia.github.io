@@ -1,0 +1,49 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.mainTextContainer{
+	width: 70%;
+}
+
+.subTitle{
+	position: relative;
+	top: 1em;
+	left: 1rem;
+}
+
+.text{
+	position: relative;
+	left: 12.5rem;
+	margin-bottom: 1em;
+}
+
+.text.textTwo{
+	top: -1em;
+}
+
+ul.text{
+	left: 13.25rem;
+}
+
+#werWirSindPhoto{
+	height: 200px;
+	width: 200px;
+	border: 8px inset black;
+	float: left;
+	margin-right: 1em;
+}
+
+
+
+/*first resize*/
+@media only screen and (max-width: 1175px){
+	.text{
+		left: 10.4rem;
+	}
+
+	ul.text{
+		left: 11.25rem;
+	}
+}

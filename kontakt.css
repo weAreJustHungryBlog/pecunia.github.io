@@ -1,0 +1,64 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.sideBar{
+	display: none;
+}
+
+.langButtonFlag{
+	box-sizing: initial;
+	height: 2rem;
+	width: 3.2rem;
+	margin: 0.3rem;
+	cursor: pointer;
+}
+
+#langButton{
+	margin: 0.3rem 0.5rem;
+	position: absolute;
+	right: 0;
+	z-index: 10;
+}
+
+#kontaktContainer{
+	position: relative;
+}
+
+#kontaktImage{
+	margin: 2rem;
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+#kontaktTextD, #kontaktTextS{
+	margin: 1em;
+	font-size: 1.25rem;
+	max-width: 60%;
+	display: inline-block;
+	position: absolute;
+	top: 2.5rem;
+}
+
+#kontaktInfoContainer{
+	display: inline-block;
+	width: 70%;
+}
+
+.kontaktSection{
+	display: inline-block;
+	padding: 1em;
+	border: 2px solid #CCC80D;
+	margin: 1rem;
+	vertical-align: middle;
+}
+
+.tn-Country{
+	display: inline;
+	height: 0.8em;
+	width: 1.5em;
+}
+
